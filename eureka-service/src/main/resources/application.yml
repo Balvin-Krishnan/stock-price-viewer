@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: eureka-service
+ 
+server:
+  port: 8302 
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    eureka-server-read-timeout-seconds: 0      
